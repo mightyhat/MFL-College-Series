@@ -25,11 +25,9 @@
         {
           "name": "Alabama",
           "state": "Alabama",
-          "abbreviation": "BAMA",
-          "rival": ["AUB"],
-          "rivalryNames": {
-              "AUB": "Iron Bowl"
-          },
+          "abbreviation": "ALA",
+          "rival": ["AUB", "CLEM", "FLA", "UGA", "LSU", "MSST", "MISS", "PSU", "TENN"],
+          "rivalryNames": {},
           "prestige": "95",
           "hexColor": "#9E1B32"
         },
@@ -37,132 +35,114 @@
           "name": "Arkansas",
           "state": "Arkansas",
           "abbreviation": "ARK",
-          "rival": ["UTK"],
+          "rival": ["LSU", "MIZ", "MISS", "TEX", "TAMU", "TTU"],
           "rivalryNames": {},
           "prestige": "85",
           "hexColor": "#9D2235"
         },
         {
-            "name": "Auburn",
-            "state": "Alabama",
-            "abbreviation": "AUB",
-            "rival": ["BAMA"],
-            "rivalryNames": {
-                "BAMA": "Iron Bowl"
-            },
-            "prestige": "90",
-            "hexColor": "#0C2340"
+          "name": "Auburn",
+          "state": "Alabama",
+          "abbreviation": "AUB",
+          "rival": ["ALA", "CLEM", "UGA", "GT", "LSU", "MISS", "TENN", "TULN"],
+          "rivalryNames": {},
+          "prestige": "90",
+          "hexColor": "#0C2340"
         },
         {
-            "name": "Florida",
-            "state": "Florida",
-            "abbreviation": "FLA",
-            "rival": ["UGA"],
-            "rivalryNames": {
-                "UGA": "World's Largest Cocktail Party"
-            },
-            "prestige": "80",
-            "hexColor": "#0021A5"
+          "name": "Florida",
+          "state": "Florida",
+          "abbreviation": "FLA",
+          "rival": ["UGA", "FSU", "LSU", "MIA", "TENN", "ALA", "AUB"],
+          "rivalryNames": {},
+          "prestige": "80",
+          "hexColor": "#0021A5"
         },
         {
-            "name": "Georgia",
-            "state": "Georgia",
-            "abbreviation": "UGA",
-            "rival": ["FLA"],
-            "rivalryNames": {
-                "FLA": "World's Largest Cocktail Party"
-            },
-            "prestige": "95",
-            "hexColor": "#BA0C2F"
+          "name": "Georgia",
+          "state": "Georgia",
+          "abbreviation": "UGA",
+          "rival": ["FLA", "GT", "SCAR", "TENN", "VAND", "ALA", "CLEM", "AUB"],
+          "rivalryNames": {},
+          "prestige": "95",
+          "hexColor": "#BA0C2F"
         },
         {
-            "name": "LSU",
-            "state": "Louisiana",
-            "abbreviation": "LSU",
-            "rival": ["TAMU"],
-            "rivalryNames": {
-                "TAMU": "Sabine Showdown"
-            },
-            "prestige": "90",
-            "hexColor": "#461D7C"
+          "name": "LSU",
+          "state": "Louisiana",
+          "abbreviation": "LSU",
+          "rival": ["TAMU", "MSST", "MISS", "TULN", "ALA", "ARK", "FLA", "AUB"],
+          "rivalryNames": {},
+          "prestige": "90",
+          "hexColor": "#461D7C"
         },
         {
-            "name": "Oklahoma",
-            "state": "Oklahoma",
-            "abbreviation": "OKLA",
-            "rival": ["UTA"],
-            "rivalryNames": {
-                "UTA": "Red River Shootout"
-            },
-            "prestige": "88",
-            "hexColor": "#841617"
+          "name": "Mississippi State",
+          "state": "Mississippi",
+          "abbreviation": "MSST",
+          "rival": ["MISS", "ALA", "LSU"],
+          "rivalryNames": {},
+          "prestige": "80",
+          "hexColor": "#660000"
         },
         {
-            "name": "Tennessee",
-            "state": "Tennessee",
-            "abbreviation": "UTK",
-            "rival": ["ARK"],
-            "rivalryNames": {},
-            "prestige": "90",
-            "hexColor": "#FF8200"
+          "name": "Tennessee",
+          "state": "Tennessee",
+          "abbreviation": "TENN",
+          "rival": ["VAND", "AUB", "FLA", "UGA", "GT", "UK", "ALA"],
+          "rivalryNames": {},
+          "prestige": "90",
+          "hexColor": "#FF8200"
         },
         {
-            "name": "Texas",
-            "state": "Texas",
-            "abbreviation": "UTA",
-            "rival": ["OKLA"],
-            "rivalryNames": {
-                "OKLA": "Red River Shootout"
-            },
-            "prestige": "85",
-            "hexColor": "#BF5700"
+          "name": "Ole Miss",
+          "state": "Mississippi",
+          "abbreviation": "MISS",
+          "rival": ["MSST", "TULN", "VAND", "ALA", "ARK", "LSU", "MEM"],
+          "rivalryNames": {},
+          "prestige": "85",
+          "hexColor": "#CE1126"
         },
         {
-            "name": "Texas A&M",
-            "state": "Texas",
-            "abbreviation": "TAMU",
-            "rival": ["LSU"],
-            "rivalryNames": {
-                "LSU": "Sabine Showdown"
-            },
-            "prestige": "80",
-            "hexColor": "#500000"
+          "name": "Texas A&M",
+          "state": "Texas",
+          "abbreviation": "TAMU",
+          "rival": ["TTU", "BAY", "LSU", "ARK", "TCU", "TEX"],
+          "rivalryNames": {},
+          "prestige": "80",
+          "hexColor": "#500000"
         }
       ]
     },
     {
-        "confFullName": "Big 10",
-        "confPrestige": "95",
-        "confName": "B1G",
-        "confTeams": [
-            {
-              "name": "Illinois",
-              "state": "Illinois",
-              "abbreviation": "ILLI",
-              "rival": ["NU"],
-              "rivalryNames": {},
-              "prestige": "79",
-              "hexColor": "#13294B"
-          },  
-          {
-                "name": "Indiana",
-                "state": "Indiana",
-                "abbreviation": "INDY",
-                "rival": ["PUR"],
-                "rivalryNames": {
-                    "PUR": "The Bucket Game"
-                },
-                "prestige": "70",
-                "hexColor": "#990000"
-              },
-              {
+      "confFullName": "Big 10",
+      "confPrestige": "95",
+      "confName": "B1G",
+      "confTeams": [
+        {
+           "name": "Illinois",
+           "state": "Illinois",
+           "abbreviation": "ILL",
+           "rival": ["MICH", "MIZ", "NW", "OSU", "PUR"],
+           "rivalryNames": {},
+           "prestige": "79",
+           "hexColor": "#13294B"
+        },  
+        {
+           "name": "Iowa",
+           "state": "Iowa",
+           "abbreviation": "IOWA",
+           "rival": ["ISU", "MINN", "NEB", "WIS"],
+           "rivalryNames": {},
+           "prestige": "85",
+           "hexColor": "#FFCD0"
+        },
+        {
                   "name": "Michigan",
                   "state": "Michigan",
-                  "abbreviation": "UM",
-                  "rival": ["OSU"],
-                  "rivalryNames": {
-                      "OSU": "The Game"
-                  },
+                  "abbreviation": "MICH",
+                  "rival": ["OSU", "MSU", "MINN", "NW", "ND", "ILL"],
+                  "rivalryNames": {},
                   "prestige": "95",
                   "hexColor": "#00274C"
               },
@@ -170,7 +150,7 @@
                   "name": "Michigan State",
                   "state": "Michigan",
                   "abbreviation": "MSU",
-                  "rival": ["PSU"],
+                  "rival": ["PSU", "ND", "IND", "MICH"],
                   "rivalryNames": {},
                   "prestige": "89", 
                   "hexColor": "#18453B"
@@ -179,18 +159,16 @@
                   "name": "Minnesota",
                   "state": "Minnesota",
                   "abbreviation": "MINN",
-                  "rival": ["UWM"],
-                  "rivalryNames": {
-                      "UWM": "The Axe Game"
-                  },
+                  "rival": ["NEB", "PSU", "WIS", "IOWA", "MICH"],
+                  "rivalryNames": {},
                   "prestige": "80",
                   "hexColor": "#7A0019"
               },
               {
                   "name": "Northwestern",
                   "state": "Illinois",
-                  "abbreviation": "NU",
-                  "rival": ["ILLI"],
+                  "abbreviation": "NW",
+                  "rival": ["ND", "ILL", "MICH"],
                   "rivalryNames": {},
                   "prestige": "75",
                   "hexColor": "#4E2A84"
@@ -199,10 +177,8 @@
                   "name": "Ohio State",
                   "state": "Ohio",
                   "abbreviation": "OSU",
-                  "rival": ["UM"],
-                  "rivalryNames": {
-                      "UM": "The Game"
-                  },
+                  "rival": ["PSU", "ILL", "MICH],
+                  "rivalryNames": {},
                   "prestige": "95",
                   "hexColor": "#BB0000"
               },
@@ -210,30 +186,26 @@
                   "name": "Penn State",
                   "state": "Pennsylvania",
                   "abbreviation": "PSU",
-                  "rival": ["MSU"],
+                  "rival": ["MSU", "PITT", "SYR", "TEM", "WVU", "ALA", "UMD", "MINN", "OSU"],
                   "rivalryNames": {},
                   "prestige": "85",
                   "hexColor": "#041E42"
               },
               {
-                  "name": "Purdue",
-                  "state": "Indiana",
-                  "abbreviation": "PUR",
-                  "rival": ["INDY"],
-                  "rivalryNames": {
-                      "INDY": "The Bucket Game"
-                  },
+                  "name": "Maryland",
+                  "state": "Maryland",
+                  "abbreviation": "UMD",
+                  "rival": ["PSU", "UVA", "WVU"],
+                  "rivalryNames": {},
                   "prestige": "75",
-                  "hexColor": "#CEB888"
+                  "hexColor": "#E03A3E"
               },
               {
                   "name": "Wisconsin",
                   "state": "Wisconsin",
-                  "abbreviation": "UWM",
-                  "rival": ["MINN"],
-                  "rivalryNames": {
-                      "MINN": "The Axe Game"
-                  },
+                  "abbreviation": "WIS",
+                  "rival": ["MINN", "IOWA", "NEB"],
+                  "rivalryNames": {},
                   "prestige": "80",
                   "hexColor": "#C5050C"
               }
@@ -248,7 +220,7 @@
                 "name": "Clemson",
                 "state": "South Carolina",
                 "abbreviation": "CLEM",
-                "rival": ["GTU"],
+                "rival": ["FSU", "UGA", "GT", "NCST", "SCAR", "ALA", "AUB", "BC"],
                 "rivalryNames": {},
                 "prestige": "95",
                 "hexColor": "#F56600"
@@ -266,7 +238,7 @@
                   "name": "Florida State",
                   "state": "Florida",
                   "abbreviation": "FSU",
-                  "rival": ["MIA"],
+                  "rival": ["MIA", "CLEM", "FLA"],
                   "rivalryNames": {},
                   "prestige": "85",
                   "hexColor": "#782F40"
@@ -274,8 +246,8 @@
               {
                   "name": "Georgia Tech",
                   "state": "Georgia",
-                  "abbreviation": "GTU",
-                  "rival": ["CLEM"],
+                  "abbreviation": "GT",
+                  "rival": ["CLEM", "TENN", "VAND", "VT", "AUB", "UGA", "CLEM"],
                   "rivalryNames": {},
                   "prestige": "75",
                   "hexColor": "#B3A369"
@@ -284,7 +256,7 @@
                   "name": "Miami",
                   "state": "Florida",
                   "abbreviation": "MIA",
-                  "rival": ["FSU"],
+                  "rival": ["FSU", "NEB", "VT", "FLA"],
                   "rivalryNames": {},
                   "prestige": "80",
                   "hexColor": "#F47321"
@@ -293,7 +265,7 @@
                   "name": "North Carolina",
                   "state": "North Carolina",
                   "abbreviation": "UNC",
-                  "rival": ["DUKE"],
+                  "rival": ["DUKE", "NCST", "SCAR", "UVA", "WF"],
                   "rivalryNames": {},
                   "prestige": "80",
                   "hexColor": "#7BAFD4"
@@ -302,7 +274,7 @@
                   "name": "North Carolina State",
                   "state": "North Carolina",
                   "abbreviation": "NCST",
-                  "rival": ["WFU"],
+                  "rival": ["WF", "ECU", "UNC", "CLEM"],
                   "rivalryNames": {},
                   "prestige": "80",
                   "hexColor": "#CC0000"
@@ -311,7 +283,7 @@
                   "name": "Virginia",
                   "state": "Virginia",
                   "abbreviation": "UVA",
-                  "rival": ["VT"],
+                  "rival": ["VT", "UMD", "UNC"],
                   "rivalryNames": {},
                   "prestige": "77",
                   "hexColor": "#232D4B"
@@ -320,7 +292,7 @@
                   "name": "Virginia Tech",
                   "state": "Virginia",
                   "abbreviation": "VT",
-                  "rival": ["UVA"],
+                  "rival": ["UVA", "WVU", "MIA", "GT", "BC"],
                   "rivalryNames": {},
                   "prestige": "75", 
                   "hexColor": "#630031"
@@ -328,8 +300,8 @@
               {
                   "name": "Wake Forest",
                   "state": "North Carolina",
-                  "abbreviation": "WFU",
-                  "rival": ["NCST"],
+                  "abbreviation": "WF",
+                  "rival": ["NCST", "UNC"],
                   "rivalryNames": {},
                   "prestige": "75",
                   "hexColor": "#9E7E38"
@@ -345,34 +317,34 @@
                 "name": "Baylor",
                 "state": "Texas",
                 "abbreviation": "BAY",
-                "rival": ["TCU"],
+                "rival": ["TCU", "TAMU", "TTU"],
                 "rivalryNames": {},
                 "prestige": "85",
                 "hexColor": "#154734"
               },
               {
-                  "name": "Cincinnati",
-                  "state": "Ohio",
-                  "abbreviation": "UC",
-                  "rival": ["WVU"],
+                  "name": "Oklahoma",
+                  "state": "Oklahoma",
+                  "abbreviation": "OU",
+                  "rival": ["TEX", "OKST", "MIZ", "NEB"],
                   "rivalryNames": {},
                   "prestige": "85",
-                  "hexColor": "#E00122"
+                  "hexColor": "#841617"
               },
               {
-                  "name": "Houston",
+                  "name": "Texas",
                   "state": "Texas",
-                  "abbreviation": "HOU",
-                  "rival": ["TTU"],
+                  "abbreviation": "TEX",
+                  "rival": ["OU", "TCU", "TAMU", "TTU", "ARK", "RICE"],
                   "rivalryNames": {},
                   "prestige": "80",
-                  "hexColor": "#C8102E"
+                  "hexColor": "#BF5700"
               },
               {
                   "name": "Iowa State",
                   "state": "Iowa",
                   "abbreviation": "ISU",
-                  "rival": ["OKST"],
+                  "rival": ["KSU", "MIZ", "IOWA", "WVU"],
                   "rivalryNames": {},
                   "prestige": "80",
                   "hexColor": "#C8102E"
@@ -380,8 +352,8 @@
               {
                   "name": "Kansas",
                   "state": "Kansas",
-                  "abbreviation": "UKAN",
-                  "rival": ["UKST"],
+                  "abbreviation": "KU",
+                  "rival": ["KSU", "MIZ", "NEB"],
                   "rivalryNames": {},
                   "prestige": "80",
                   "hexColor": "#0051BA"
@@ -389,8 +361,8 @@
               {
                   "name": "Kansas State",
                   "state": "Kansas",
-                  "abbreviation": "UKST",
-                  "rival": ["UKAN"],
+                  "abbreviation": "KSU",
+                  "rival": ["KU", "NEB", "ISU"],
                   "rivalryNames": {},
                   "prestige": "80",
                   "hexColor": "#512888"
@@ -399,7 +371,7 @@
                   "name": "Oklahoma State",
                   "state": "Oklahoma",
                   "abbreviation": "OKST",
-                  "rival": ["ISU"],
+                  "rival": ["OU", "TLSA"],
                   "rivalryNames": {},
                   "prestige": "85",
                   "hexColor": "#FF7300"
@@ -408,7 +380,7 @@
                   "name": "TCU",
                   "state": "Texas",
                   "abbreviation": "TCU",
-                  "rival": ["BAY"],
+                  "rival": ["BAY", "TEX", "TAMU", "TTU", "SMU"],
                   "rivalryNames": {},
                   "prestige": "90",
                   "hexColor": "#4D1979"
@@ -417,7 +389,7 @@
                   "name": "Texas Tech",
                   "state": "Texas",
                   "abbreviation": "TTU",
-                  "rival": ["HOU"],
+                  "rival": ["TEX", "ARK", "BAY", "HOU", "TCU", "TAMU"],
                   "rivalryNames": {},
                   "prestige": "85",
                   "hexColor": "#CC0000"
@@ -426,7 +398,7 @@
                   "name": "West Virginia",
                   "state": "West Virginia",
                   "abbreviation": "WVU",
-                  "rival": ["UC"],
+                  "rival": ["PITT", "CIN", "MRSH", "UMD", "PSU", "SYR", "VT", "ISU"],
                   "rivalryNames": {},
                   "prestige": "78",
                   "hexColor": "#002855"
@@ -442,7 +414,7 @@
                 "name": "California",
                 "state": "California",
                 "abbreviation": "CAL",
-                "rival": ["STAN"],
+                "rival": ["STAN", "UCLA"],
                 "rivalryNames": {},
                 "prestige": "80",
                 "hexColor": "#003262"
@@ -450,8 +422,8 @@
               {
                 "name": "Colorado",
                 "state": "Colorado",
-                "abbreviation": "COL",
-                "rival": ["UTAH"],
+                "abbreviation": "COLO",
+                "rival": ["UTAH", "NEB", "CSU"],
                 "rivalryNames": {},
                 "prestige": "80",
                 "hexColor": "#CFB87C"
@@ -460,7 +432,7 @@
                 "name": "Oregon",
                 "state": "Oregon",
                 "abbreviation": "ORE",
-                "rival": ["ORSU"],
+                "rival": ["ORST", WASH],
                 "rivalryNames": {},
                 "prestige": "90",
                 "hexColor": "#154733"
@@ -468,7 +440,7 @@
               {
                 "name": "Oregon State",
                 "state": "Oregon",
-                "abbreviation": "ORSU",
+                "abbreviation": "ORST",
                 "rival": ["ORE"],
                 "rivalryNames": {},
                 "prestige": "80",
@@ -478,7 +450,7 @@
                 "name": "Stanford",
                 "state": "California",
                 "abbreviation": "STAN",
-                "rival": ["CAL"],
+                "rival": ["CAL", "USC", "SJSU", "ND"],
                 "rivalryNames": {},
                 "prestige": "85",
                 "hexColor": "#8C1515"
@@ -487,7 +459,7 @@
                 "name": "UCLA",
                 "state": "California",
                 "abbreviation": "UCLA",
-                "rival": ["USC"],
+                "rival": ["USC", "CAL"],
                 "rivalryNames": {},
                 "prestige": "90",
                 "hexColor": "#2D68C4"
@@ -496,7 +468,7 @@
                 "name": "Utah",
                 "state": "Utah",
                 "abbreviation": "UTAH",
-                "rival": ["COL"],
+                "rival": ["COLO", "BYU", "USU"],
                 "rivalryNames": {},
                 "prestige": "80",
                 "hexColor": "#CC0000"
@@ -505,7 +477,7 @@
                 "name": "USC",
                 "state": "California",
                 "abbreviation": "USC",
-                "rival": ["USCLA"],
+                "rival": ["UCLA", "STAN", "ND"],
                 "rivalryNames": {},
                 "prestige": "85",
                 "hexColor": "#990000"
@@ -513,8 +485,8 @@
               {
                 "name": "Washington",
                 "state": "Washington",
-                "abbreviation": "WAS",
-                "rival": ["WSU"],
+                "abbreviation": "WASH",
+                "rival": ["WSU", "ORE"],
                 "rivalryNames": {},
                 "prestige": "80",
                 "hexColor": "#4B2E83"
@@ -523,7 +495,7 @@
                 "name": "Washington State",
                 "state": "Washington",
                 "abbreviation": "WSU",
-                "rival": ["WAS"],
+                "rival": ["WASH"],
                 "rivalryNames": {},
                 "prestige": "80",
                 "hexColor": "#981E32"
@@ -538,8 +510,8 @@
             {
                 "name": "Air Force",
                 "state": "Colorado",
-                "abbreviation": "AIRF",
-                "rival": ["BYU"],
+                "abbreviation": "AFA",
+                "rival": ["BYU", "HAW", "CSU"],
                 "rivalryNames": {},
                 "prestige": "75",
                 "hexColor": "#003087"
@@ -547,8 +519,8 @@
               {
                 "name": "Arizona",
                 "state": "Arizona",
-                "abbreviation": "AZ",
-                "rival": ["ASU"],
+                "abbreviation": "ARIZ",
+                "rival": ["ASU", "UNM"],
                 "rivalryNames": {},
                 "prestige": "80",
                 "hexColor": "#CC0033"
@@ -557,7 +529,7 @@
                 "name": "Arizona State",
                 "state": "Arizona",
                 "abbreviation": "ASU",
-                "rival": ["AZ"],
+                "rival": ["ARIZ"],
                 "rivalryNames": {},
                 "prestige": "80",
                 "hexColor": "#8C1D40"
@@ -566,64 +538,64 @@
                 "name": "BYU",
                 "state": "Utah",
                 "abbreviation": "BYU",
-                "rival": ["AIRF"],
+                "rival": ["AFA", "UTAH", "USU"],
                 "rivalryNames": {},
                 "prestige": "80",
                 "hexColor": "#002E5D"
               },
               {
-                "name": "Iowa",
-                "state": "Iowa",
-                "abbreviation": "IOWA",
-                "rival": ["UNL"],
+                "name": "New Mexico",
+                "state": "New Mexico",
+                "abbreviation": "UNM",
+                "rival": ["NMSU", "ARIZ"],
                 "rivalryNames": {},
                 "prestige": "85",
-                "hexColor": "#FFCD00"
+                "hexColor": "#BA0C2F"
               },
               {
-                "name": "Mississippi State",
-                "state": "Mississippi",
-                "abbreviation": "MISS",
-                "rival": ["OLE"],
+                "name": "New Mexico State",
+                "state": "New Mexico",
+                "abbreviation": "NMSU",
+                "rival": ["UTEP", "UNM"],
                 "rivalryNames": {},
                 "prestige": "80",
-                "hexColor": "#660000"
+                "hexColor": "#861F41"
               },
               {
-                "name": "Missouri",
-                "state": "Missouri",
-                "abbreviation": "MO",
-                "rival": ["VAN"],
+                "name": "Indiana",
+                "state": "Indiana",
+                "abbreviation": "IND",
+                "rival": ["PUR", "MSU", "UK"],
                 "rivalryNames": {},
                 "prestige": "80",
-                "hexColor": "#000000"
+                "hexColor": "#990000"
               },
               {
                 "name": "Nebraska",
                 "state": "Nebraska",
                 "abbreviation": "UNL",
-                "rival": ["IOWA"],
+                "rival": ["IOWA", "OU", "WIS", "COLO", "KU", "KSU", "MIA", "MINN", "MIZ"],
                 "rivalryNames": {},
                 "prestige": "75",
                 "hexColor": "#E41C38"
               },
               {
-                "name": "Ole Miss",
-                "state": "Mississippi",
-                "abbreviation": "OLE",
-                "rival": ["MISS"],
+                "name": "Purdue",
+                "state": "Indiana",
+                "abbreviation": "PUR",
+                "rival": ["WVU", "ILL", "IND", "ND"],
                 "rivalryNames": {},
                 "prestige": "85",
-                "hexColor": "#CE1126"
+                "hexColor": "#CEB888"
               },
               {
-                "name": "Vanderbilt",
-                "state": "Tennessee",
-                "abbreviation": "VAN",
-                "rival": ["MO"],
+                "name": "Missouri",
+                "state": "Missouri",
+                "abbreviation": "MIZ",
+                "rival": ["NEB", "OU", "SCAR", "ARK", "KU", "ILL", "ISU"],
                 "rivalryNames": {},
                 "prestige": "75",
-                "hexColor": "#866D4B"
+                "hexColor": "#F1B82D"
               }
         ]
     },
@@ -636,7 +608,7 @@
                 "name": "Appalachian State",
                 "state": "North Carolina",
                 "abbreviation": "APP",
-                "rival": ["CCU"],
+                "rival": ["CCAR", "MRSH", "CHAR"],
                 "rivalryNames": {},
                 "prestige": "75",
                 "hexColor": "#222222"
@@ -645,7 +617,7 @@
                 "name": "Arkansas State",
                 "state": "Arkansas",
                 "abbreviation": "ARKS",
-                "rival": ["USM"],
+                "rival": ["MEM", "WKU"],
                 "rivalryNames": {},
                 "prestige": "65",
                 "hexColor": "#CC092F"
@@ -653,35 +625,35 @@
               {
                 "name": "Coastal Carolina",
                 "state": "South Carolina",
-                "abbreviation": "CCU",
-                "rival": ["APP"],
+                "abbreviation": "CCAR",
+                "rival": ["APP", "LIB"],
                 "rivalryNames": {},
                 "prestige": "70",
                 "hexColor": "#006F71"
               },
               {
-                "name": "Georgia Southern",
-                "state": "Georgia",
-                "abbreviation": "GSOU",
-                "rival": ["GSU"],
+                "name": "North Texas",
+                "state": "Texas",
+                "abbreviation": "UNT",
+                "rival": ["SMU", "UTSA", "RICE"],
                 "rivalryNames": {},
                 "prestige": "70",
-                "hexColor": "#011E41"
+                "hexColor": "#00853E"
               },
               {
-                "name": "Georgia State",
-                "state": "Georgia",
-                "abbreviation": "GSU",
-                "rival": ["GSOU"],
+                "name": "Rice",
+                "state": "Texas",
+                "abbreviation": "RICE",
+                "rival": ["SMU", "TEX", "HOU", "UNT"],
                 "rivalryNames": {},
                 "prestige": "70",
-                "hexColor": "#0039A6"
+                "hexColor": "#00205B"
               },
               {
                 "name": "UL Lafayette",
                 "state": "Louisiana",
-                "abbreviation": "RAGE",
-                "rival": ["ULM"],
+                "abbreviation": "ULL",
+                "rival": ["ULM", "LT"],
                 "rivalryNames": {},
                 "prestige": "75",
                 "hexColor": "#CE181E"
@@ -690,7 +662,7 @@
                 "name": "UL Monroe",
                 "state": "Louisiana",
                 "abbreviation": "ULM",
-                "rival": ["RAGE"],
+                "rival": ["ULL", "LT"],
                 "rivalryNames": {},
                 "prestige": "70",
                 "hexColor": "#840029"
@@ -698,26 +670,26 @@
               {
                 "name": "South Alabama",
                 "state": "Alabama",
-                "abbreviation": "SAU",
+                "abbreviation": "USA",
                 "rival": ["TROY"],
                 "rivalryNames": {},
                 "prestige": "70",
                 "hexColor": "#00205B"
               },
               {
-                "name": "Southern Miss",
-                "state": "Mississippi",
-                "abbreviation": "USM",
-                "rival": ["ARKS"],
+                "name": "Western Kentucky",
+                "state": "Kentucky",
+                "abbreviation": "WKU",
+                "rival": ["MTSU", "MRSH", "LOU", "AKST"],
                 "rivalryNames": {},
                 "prestige": "70",
-                "hexColor": "#FFAB00"
+                "hexColor": "#C60C30"
               },
               {
                 "name": "Troy",
                 "state": "Alabama",
                 "abbreviation": "TROY",
-                "rival": ["SAU"],
+                "rival": ["USA", "MTSU"],
                 "rivalryNames": {},
                 "prestige": "70",
                 "hexColor": "#8A2432"
@@ -742,7 +714,7 @@
                 "name": "Ball State",
                 "state": "Indiana",
                 "abbreviation": "BALL",
-                "rival": ["CMU"],
+                "rival": ["MOH"],
                 "rivalryNames": {},
                 "prestige": "65",
                 "hexColor": "#BA0C2F"
@@ -751,7 +723,7 @@
                 "name": "Bowling Green",
                 "state": "Ohio",
                 "abbreviation": "BGSU",
-                "rival": ["TOL"],
+                "rival": ["TOL", "KENT"],
                 "rivalryNames": {},
                 "prestige": "60",
                 "hexColor": "#FE5000"
@@ -760,7 +732,7 @@
                 "name": "Central Michigan",
                 "state": "Michigan",
                 "abbreviation": "CMU",
-                "rival": ["BALL"],
+                "rival": ["EMU", "WMU"],
                 "rivalryNames": {},
                 "prestige": "65",
                 "hexColor": "#6A0032"
@@ -769,7 +741,7 @@
                 "name": "Eastern Michigan",
                 "state": "Michigan",
                 "abbreviation": "EMU",
-                "rival": ["WMU"],
+                "rival": ["CMU"],
                 "rivalryNames": {},
                 "prestige": "65",
                 "hexColor": "#006633"
@@ -778,7 +750,7 @@
                 "name": "Kent State",
                 "state": "Ohio",
                 "abbreviation": "KENT",
-                "rival": ["AKR"],
+                "rival": ["AKR", "BGSU"],
                 "rivalryNames": {},
                 "prestige": "65",
                 "hexColor": "#002664"
@@ -786,8 +758,8 @@
               {
                 "name": "Miami OH",
                 "state": "Ohio",
-                "abbreviation": "MIOH",
-                "rival": ["OHIO"],
+                "abbreviation": "MOH",
+                "rival": ["OHIO", "CIN", "BALL"],
                 "rivalryNames": {},
                 "prestige": "60",
                 "hexColor": "#B61E2E"
@@ -796,7 +768,7 @@
                 "name": "Ohio",
                 "state": "Ohio",
                 "abbreviation": "OHIO",
-                "rival": ["MIOH"],
+                "rival": ["MOH", "MRSH"],
                 "rivalryNames": {},
                 "prestige": "65",
                 "hexColor": "#00694E"
@@ -814,7 +786,7 @@
                 "name": "Western Michigan",
                 "state": "Michigan",
                 "abbreviation": "WMU",
-                "rival": ["EMU"],
+                "rival": ["CMU"],
                 "rivalryNames": {},
                 "prestige": "65",
                 "hexColor": "#6C4023"
@@ -827,37 +799,37 @@
         "confName": "EAST",
         "confTeams": [
             {
-                "name": "Army",
-                "state": "New York",
-                "abbreviation": "ARMY",
-                "rival": ["NAVY"],
+                "name": "Liberty",
+                "state": "Virginia",
+                "abbreviation": "LIB",
+                "rival": ["CCAR", "ND"],
                 "rivalryNames": {},
                 "prestige": "70",
-                "hexColor": "#D4BF91"
+                "hexColor": "#002D62"
               },
               {
                 "name": "Boston College",
                 "state": "Massachusetts",
                 "abbreviation": "BC",
-                "rival": ["MARY"],
+                "rival": ["CLEM", "ND", "SYR", "VT", "RUTG"],
                 "rivalryNames": {},
                 "prestige": "80",
                 "hexColor": "#98002E"
               },
               {
-                "name": "Central Florida",
-                "state": "Florida",
-                "abbreviation": "UCF",
-                "rival": ["SC"],
+                "name": "Rutgers",
+                "state": "New Jersey",
+                "abbreviation": "RUTG",
+                "rival": ["SYR", "BC"],
                 "rivalryNames": {},
                 "prestige": "76",
-                "hexColor": "#BA9B37"
+                "hexColor": "#CC0033"
               },
               {
                 "name": "Kentucky",
                 "state": "Kentucky",
                 "abbreviation": "UK",
-                "rival": ["LOU"],
+                "rival": ["LOU", "TENN", "VAND", "IND"],
                 "rivalryNames": {},
                 "prestige": "85",
                 "hexColor": "#0033A0"
@@ -866,34 +838,34 @@
                 "name": "Louisville",
                 "state": "Kentucky",
                 "abbreviation": "LOU",
-                "rival": ["UK"],
+                "rival": ["UK", "MEM", "CIN", "WKU"],
                 "rivalryNames": {},
                 "prestige": "80",
                 "hexColor": "#AD0000"
               },
               {
-                "name": "Maryland",
-                "state": "Maryland",
-                "abbreviation": "MARY",
-                "rival": ["BC"],
+                "name": "Syracuse",
+                "state": "New York",
+                "abbreviation": "SYR",
+                "rival": ["WVU", "BC", "PSU", "PITT", "RUTG"],
                 "rivalryNames": {},
                 "prestige": "75",
-                "hexColor": "#E03A3E"
+                "hexColor": "#F76900"
               },
               {
-                "name": "Navy",
-                "state": "Maryland",
-                "abbreviation": "NAVY",
-                "rival": ["ARMY"],
+                "name": "Vanderbilt",
+                "state": "Tennessee",
+                "abbreviation": "VAND",
+                "rival": ["UGA", "GT", "UK", "MISS", "TENN", "SCAR"],
                 "rivalryNames": {},
                 "prestige": "70",
-                "hexColor": "#00205B"
+                "hexColor": "#866D4B"
               },
               {
                 "name": "Notre Dame",
                 "state": "Indiana",
                 "abbreviation": "ND",
-                "rival": ["PITT"],
+                "rival": ["PITT", "PUR", "STAN", "USC", "BC", "MSU", "MICH", "NW", "LIB"],
                 "rivalryNames": {},
                 "prestige": "90",
                 "hexColor": "#0C2340"
@@ -902,7 +874,7 @@
                 "name": "Pittsburgh",
                 "state": "Pennsylvania",
                 "abbreviation": "PITT",
-                "rival": ["ND"],
+                "rival": ["ND", "PSU", "SYR", "CIN"],
                 "rivalryNames": {},
                 "prestige": "80",
                 "hexColor": "#003594"
@@ -910,8 +882,8 @@
               {
                 "name": "South Carolina",
                 "state": "South Carolina",
-                "abbreviation": "SC",
-                "rival": ["UCF"],
+                "abbreviation": "SCAR",
+                "rival": ["UNC", "UGA", "MIZ", "CLEM", "VAND"],
                 "rivalryNames": {},
                 "prestige": "80",
                 "hexColor": "#73000A"
@@ -926,8 +898,8 @@
             {
                 "name": "Charlotte",
                 "state": "North Carolina",
-                "abbreviation": "UNCC",
-                "rival": ["HERD"],
+                "abbreviation": "CHAR",
+                "rival": ["APP", "MTSU"],
                 "rivalryNames": {},
                 "prestige": "65",
                 "hexColor": "#046A38"
@@ -951,19 +923,19 @@
                 "hexColor": "#081E3F"
               },
               {
-                "name": "Liberty",
-                "state": "Virginia",
-                "abbreviation": "LIB",
-                "rival": ["ODU"],
+                "name": "UAB",
+                "state": "Alabama",
+                "abbreviation": "UAB",
+                "rival": ["MEM", "LT"],
                 "rivalryNames": {},
                 "prestige": "75",
-                "hexColor": "#002D62"
+                "hexColor": "#006341"
               },
               {
                 "name": "Louisiana Tech",
                 "state": "Louisiana",
-                "abbreviation": "LTEC",
-                "rival": ["TSTU"],
+                "abbreviation": "LT",
+                "rival": ["ULL", "ULM", "UAB"],
                 "rivalryNames": {},
                 "prestige": "65",
                 "hexColor": "#002F8B"
@@ -971,8 +943,8 @@
               {
                 "name": "Marshall",
                 "state": "West Virginia",
-                "abbreviation": "HERD",
-                "rival": ["UNCC"],
+                "abbreviation": "MRSH",
+                "rival": ["OHIO", "WVU", "ECU", "APP", "WKU", "ODU"],
                 "rivalryNames": {},
                 "prestige": "75",
                 "hexColor": "#00B140"
@@ -981,7 +953,7 @@
                 "name": "Middle Tennessee",
                 "state": "Tennessee",
                 "abbreviation": "MTSU",
-                "rival": ["WKU"],
+                "rival": ["WKU", "TROY", "CHAR"],
                 "rivalryNames": {},
                 "prestige": "70",
                 "hexColor": "#0066CC"
@@ -990,28 +962,28 @@
                 "name": "Old Dominion",
                 "state": "Virginia",
                 "abbreviation": "ODU",
-                "rival": ["LIB"],
+                "rival": ["MRSH"],
                 "rivalryNames": {},
                 "prestige": "70",
                 "hexColor": "#7C878E"
               },
               {
-                "name": "Texas State",
+                "name": "UTSA",
                 "state": "Texas",
-                "abbreviation": "TSTU",
-                "rival": ["LTEC"],
+                "abbreviation": "UTSA",
+                "rival": ["UNT", "UTEP"],
                 "rivalryNames": {},
                 "prestige": "65",
-                "hexColor": "#501214"
+                "hexColor": "#F15A22"
               },
               {
-                "name": "Western Kentucky",
-                "state": "Kentucky",
-                "abbreviation": "WKU",
-                "rival": ["MTSU"],
+                "name": "UTEP",
+                "state": "Texas",
+                "abbreviation": "UTEP",
+                "rival": ["UTSA", "NMSU"],
                 "rivalryNames": {},
                 "prestige": "70",
-                "hexColor": "#C60C30"
+                "hexColor": "#FF8200"
               }
         ]
     },
@@ -1024,7 +996,7 @@
                 "name": "Boise State",
                 "state": "Idaho",
                 "abbreviation": "BSU",
-                "rival": ["HAWI"],
+                "rival": ["FRES", "NEV"],
                 "rivalryNames": {},
                 "prestige": "70",
                 "hexColor": "#D64309"
@@ -1033,7 +1005,7 @@
                 "name": "Colorado State",
                 "state": "Colorado",
                 "abbreviation": "CSU",
-                "rival": ["WYO"],
+                "rival": ["WYO", "AFA", "COLO"],
                 "rivalryNames": {},
                 "prestige": "70",
                 "hexColor": "#1E4D2B"
@@ -1042,7 +1014,7 @@
                 "name": "Fresno State",
                 "state": "California",
                 "abbreviation": "FRES",
-                "rival": ["SJSU"],
+                "rival": ["SJSU", "HAW", "SDSU", "BSU"],
                 "rivalryNames": {},
                 "prestige": "70",
                 "hexColor": "#DB0032"
@@ -1050,8 +1022,8 @@
               {
                 "name": "Hawaii",
                 "state": "Hawaii",
-                "abbreviation": "HAWI",
-                "rival": ["BSU"],
+                "abbreviation": "HAW",
+                "rival": ["WYO", "AFA", "FRES"],
                 "rivalryNames": {},
                 "prestige": "65",
                 "hexColor": "#024731"
@@ -1060,7 +1032,7 @@
                 "name": "Nevada",
                 "state": "Nevada",
                 "abbreviation": "NEV",
-                "rival": ["USU"],
+                "rival": ["UNLV", "BSU"],
                 "rivalryNames": {},
                 "prestige": "65",
                 "hexColor": "#003366"
@@ -1069,7 +1041,7 @@
                 "name": "San Diego State",
                 "state": "California",
                 "abbreviation": "SDSU",
-                "rival": ["UNLV"],
+                "rival": ["FRES"],
                 "rivalryNames": {},
                 "prestige": "75",
                 "hexColor": "#A6192E"
@@ -1078,7 +1050,7 @@
                 "name": "San Jose State",
                 "state": "California",
                 "abbreviation": "SJSU",
-                "rival": ["FRES"],
+                "rival": ["FRES", "STAN"],
                 "rivalryNames": {},
                 "prestige": "70",
                 "hexColor": "#0055A2"
@@ -1087,7 +1059,7 @@
                 "name": "UNLV",
                 "state": "Nevada",
                 "abbreviation": "UNLV",
-                "rival": ["SDSU"],
+                "rival": ["NEV"],
                 "rivalryNames": {},
                 "prestige": "70",
                 "hexColor": "#CF0A2C"
@@ -1096,7 +1068,7 @@
                 "name": "Utah State",
                 "state": "Utah",
                 "abbreviation": "USU",
-                "rival": ["NEV"],
+                "rival": ["WYO", "UTAH", "BYU"],
                 "rivalryNames": {},
                 "prestige": "65",
                 "hexColor": "#00263A"
@@ -1105,7 +1077,7 @@
                 "name": "Wyoming",
                 "state": "Wyoming",
                 "abbreviation": "WYO",
-                "rival": ["CSU"],
+                "rival": ["CSU", "USU", "HAW"],
                 "rivalryNames": {},
                 "prestige": "75",
                 "hexColor": "#492F24"
@@ -1121,7 +1093,7 @@
                 "name": "East Carolina",
                 "state": "North Carolina",
                 "abbreviation": "ECU",
-                "rival": ["UAB"],
+                "rival": ["MRSH", "NCST", "MEM"],
                 "rivalryNames": {},
                 "prestige": "65",
                 "hexColor": "#592A8A"
@@ -1129,35 +1101,35 @@
               {
                 "name": "Memphis",
                 "state": "Tennessee",
-                "abbreviation": "UMEM",
-                "rival": ["UTUL"],
+                "abbreviation": "MEM",
+                "rival": ["MISS", "CIN", "LOU", "AKST", "UAB"],
                 "rivalryNames": {},
                 "prestige": "75",
                 "hexColor": "#003087"
               },
               {
-                "name": "North Texas",
-                "state": "Texas",
-                "abbreviation": "UNT",
-                "rival": ["SMU"],
+                "name": "Cincinnati",
+                "state": "Ohio",
+                "abbreviation": "CIN",
+                "rival": ["LOU", "MEM", "MOH", "PITT", "UCF", "WVU", "TEMP"],
                 "rivalryNames": {},
                 "prestige": "65",
-                "hexColor": "#00853E"
+                "hexColor": "#E00122"
               },
               {
-                "name": "Rice",
+                "name": "Houston",
                 "state": "Texas",
-                "abbreviation": "RICE",
-                "rival": ["UTSA"],
+                "abbreviation": "HOU",
+                "rival": ["SMU", "RICE", "TTU", "TLSA"],
                 "rivalryNames": {},
                 "prestige": "70",
-                "hexColor": "#00205B"
+                "hexColor": "#C8102E"
               },
               {
                 "name": "SMU",
                 "state": "Texas",
                 "abbreviation": "SMU",
-                "rival": ["UNT"],
+                "rival": ["TCU", "RICE", "UNT", "HOU"],
                 "rivalryNames": {},
                 "prestige": "75",
                 "hexColor": "#0033A0"
@@ -1166,7 +1138,7 @@
                 "name": "South Florida",
                 "state": "Florida",
                 "abbreviation": "USF",
-                "rival": ["TUL"],
+                "rival": ["UCF"],
                 "rivalryNames": {},
                 "prestige": "70",
                 "hexColor": "#006747"
@@ -1174,8 +1146,8 @@
               {
                 "name": "Tulane",
                 "state": "Louisiana",
-                "abbreviation": "TUL",
-                "rival": ["USF"],
+                "abbreviation": "TULN",
+                "rival": ["AUB", "LSU", "MISS", "TLSA"],
                 "rivalryNames": {},
                 "prestige": "70",
                 "hexColor": "#006747"
@@ -1183,29 +1155,29 @@
               {
                 "name": "Tulsa",
                 "state": "Oklahoma",
-                "abbreviation": "UTUL",
-                "rival": ["UMEM"],
+                "abbreviation": "TLSA",
+                "rival": ["HOU", "OKST", "TULN"],
                 "rivalryNames": {},
                 "prestige": "65",
                 "hexColor": "#002D72"
               },
               {
-                "name": "UAB",
-                "state": "Alabama",
-                "abbreviation": "UAB",
-                "rival": ["ECU"],
+                "name": "UCF",
+                "state": "Florida",
+                "abbreviation": "UCF",
+                "rival": ["USF", "CIN"],
                 "rivalryNames": {},
                 "prestige": "70",
-                "hexColor": "#006341"
+                "hexColor": "#BA9B37"
               },
               {
-                "name": "UTSA",
-                "state": "Texas",
-                "abbreviation": "UTSA",
-                "rival": ["RICE"],
+                "name": "Temple",
+                "state": "Pennsylvania",
+                "abbreviation": "TEM",
+                "rival": ["PSU", "CIN"],
                 "rivalryNames": {},
                 "prestige": "70",
-                "hexColor": "#F15A22"
+                "hexColor": "#9D2235"
               }
         ]
     }
